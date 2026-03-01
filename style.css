@@ -1,6 +1,36 @@
+/* Фон и общий стиль */
 body {
-  background:a8cbb7
-  color:black
-  font-family: Arial, sans-serif;
-  <img src="Music-to-order-" alt="d93fee683dc7a5f301bcc8d0abf4c819.jpg">
+  background: linear-gradient(to bottom, #38bdf8, #0ea5e9);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Заголовок */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Картинка */
+.foto {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* Кнопка */
+button {
+  background: #22c55e;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #16a34a;
 }
